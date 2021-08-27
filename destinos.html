@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Avid is a SaaS app landing page template built with Bootstrap and HTML to help you create a beautiful and efficient online presentation for your web app and convince visitors to sign up">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content=""> <!-- website name -->
+    <meta property="og:site" content=""> <!-- website link -->
+    <meta property="og:title" content=""> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content=""> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content=""> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content=""> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article">
+
+    <!-- Webpage Title -->
+    <title>Balcony Room - Villa</title>
+
+    <!-- Styles -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,700&amp;display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&amp;display=swap" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/fontawesome-all.css" rel="stylesheet">
+    <link href="css/bootstrap-datepicker3.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body data-spy="scroll" data-target=".fixed-top"><a href="body" class="back-to-top page-scroll">Back to Top</a>
+
+     <!-- Navigation -->
+     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-dark">
+        <div class="container">
+            
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Villa</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/BrasilTurismo.svg" alt="alternative"></a>
+
+            <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Destinos</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item page-scroll" href="natal.html">Natal</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="maceio.html">Maceió</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="fortaleza.html">Fortaleza</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="foz-iguacu.html">Foz do Iguaçu</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="trancoso.html">Trancoso</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="santa-cruz.html">Santa Cruz</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="bonito.html">Bonito</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="sao-paulo.html">São Paulo</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="serra-gaucha.html">Serra Gaúcha</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="monte-verde.html">Monte Verde</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="chapada.html">Chapada</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item page-scroll" href="praia-forte.html">Praia Forte</a>
+
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html#contato">Contato</a>
+                    </li>
+                </ul>
+                <span class="nav-item ml-auto">
+                    <a class="btn-outline-sm" href="tel:98188-9119"><i class="fas fa-phone-alt"></i>98188-9119</a>
+                </span>
+                
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+    <!-- end of navigation -->
+    <!-- Header Lightbox -->
+    <!-- Lightbox -->
+	<div id="header-details-lightbox" class="lightbox-form zoom-anim-dialog mfp-hide">
+        <div class="container">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-12">
+                    <p>Preencha e envie o formulário para consultar reserva</p>
+                    
+                    <!-- Booking Form -->
+                    <!-- autocomplete = off to avoid display problems in mobile view -->
+                    <form id="bookingForm" data-toggle="validator" data-focus="false" autocomplete="off">
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="name" required>
+                            <label class="label-control" for="name">Nome Completo</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control-input" id="email" required>
+                            <label class="label-control" for="email">E-mail</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="phone" required>
+                            <label class="label-control" for="phone">Numero de Telefone</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="people" required>
+                            <label class="label-control" for="people"> Número de pessoas</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control-select" id="room" required>
+                                <option class="select-option" value="" disabled selected>Escolha o quarto</option>
+                                <option class="select-option" value="Balcony Room">Quarto simples</option>
+                                <option class="select-option" value="Panoramic Room">Quarto vip</option>
+                                <option class="select-option" value="Presidential Room">Quarto Luxuoso</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <!-- readonly is enabled to avoid display problems in mobile view -->
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="start" readonly required>
+                            <label class="label-control" for="start">Dia de chegada</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control-input" id="end" readonly required>
+                            <label class="label-control" for="end">Dia de partida</label>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="form-control-submit-button">Pedir reseva</button>
+                        </div>
+                        <div class="form-message">
+                            <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        </div>
+                    </form>
+                    <!-- end of booking form -->
+
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of lightbox-form -->
+    <!-- end of lightbox -->
+    <!-- end of header lightbox -->
+    <!-- Rooms -->
+    <div class="cards-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="green">Conforto e relaxamento</h2>
+                    <ul class="list-unstyled li-space-lg p-heading">
+                        <li class="address">Os quartos dos hoteis oferecem conforto e relaxamento. Todos eles incluem:
+                        </li>
+                        <li><i class="fas fa-wifi"></i>Wi-Fi gratuito</li>
+                        <li><i class="fas fa-bath"></i>Banheiro privado</li>
+                        <li><i class="fas fa-tablet"></i>
+                            Armário frigorifico</li>
+                        <li><i class="fas fa-snowflake"></i>
+                            Ar condicionado
+                        </li>
+                    </ul> <!-- end of list-unstyled -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="natal.html"><img class="img-fluid" src="./images/1.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Natal - R$1500,00</h3>
+                            <p>Com sol praticamente o ano inteiro, a capital do Rio Grande do Norte é um dos destinos preferidos do Nordeste. </p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="natal.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="maceio.html"><img class="img-fluid" src="images/2.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Maceió - R$ 1600,00</h3>
+                            <p>Dona das praias urbanas mais bonitas do Nordeste, Maceió, a capital de Alagoas, oferece aos seus visitantes...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="maceio.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="fortaleza.html"><img class="img-fluid" src="./images/3.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Fortaleza - R$1500,00</h3>
+                            <p>Com 35 km de litoral, Fortaleza conta com belas praias de águas quentes e claras, ótimas opções de passeios...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="fortaleza.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="foz-iguacu.html"><img class="img-fluid" src="./images/4.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Foz do Iguaçu - R$1500,00</h3>
+                            <p>Um dos espetáculos mais impressionantes da natureza, as Cataratas do Iguaçu somam 275 quedas-d’água de até 80 metros...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="foz-iguacu.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="trancoso.html"><img class="img-fluid" src="images/5.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Trancoso - R$ 1600,00</h3>
+                            <p>Localizado no Litoral Sul da Bahia, Trancoso é um distrito de Porto Seguro muito visitado por turistas que amam praia e calor. </p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="trancoso.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="santa-cruz.html"><img class="img-fluid" src="./images/6.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Santa Cruz - R$1500,00</h3>
+                            <p>Distante cerca de 23 km de Porto Seguro, Santa Cruz Cabrália tem praias praticamente desertas, rios de águas calmas e vilas históricas</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="santa-cruz.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="bonito.html"><img class="img-fluid" src="./images/7.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Bonito - R$1500,00</h3>
+                            <p>Rios de águas cristalinas, grutas, fauna e flora preservadas e considerado um dos principais destinos de ecoturismo do Brasil.</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="bonito.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="sao-paulo.html"><img class="img-fluid" src="images/8.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">São Paulo - R$ 1600,00</h3>
+                            <p>Uma metrópole de quase 12 milhões de habitantes que tem tudo o que você precisa: compras, gastronomia, entretenimento, moda, eventos...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="sao-paulo.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="serra-gaucha.html"><img class="img-fluid" src="./images/9.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Serra Gaúcha - R$1500,00</h3>
+                            <p>Um pedacinho da Europa no sul do Brasil. A Serra Gaúcha é conhecida por suas paisagens naturais, o friozinho das montanhas, gastronomia rica...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="serra-gaucha.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="monte-verde.html"><img class="img-fluid" src="./images/10.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Monte Verde - R$1500,00</h3>
+                            <p>Perfeita para uma viagem romântica, a pequena vila de Monte Verde, localizada no distrito de Camanducaia, no Sul de Minas Gerais...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="monte-verde.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="chapada.html"><img class="img-fluid" src="images/11.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Chapada - R$ 1600,00</h3>
+                            <p>Formada por 57 municípios e cravada no meio do sertão da Bahia, a Chapada Diamantina espalha-se por um território gigantesco...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="chapada.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+
+
+                    <!-- Card -->
+                    <div class="card">
+                        <div class="card-image">
+                            <a href="praia-forte.html"><img class="img-fluid" src="./images/12.jpg"
+                                    alt="alternative"></a>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-title">Praia Forte - R$1500,00</h3>
+                            <p>Pertinho de Salvador fica a bela Praia do Forte, com 12 km de areias brancas, águas cristalinas, piscinas naturais e coqueirais...</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#header-details-lightbox">Reservar</a> <a
+                                class="btn-outline-reg" href="praia-forte.html">Detalhes</a>
+                        </div>
+                    </div>
+                    <!-- end of card -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Se você também deseja passar um tempo confortável e relaxante, entre em contato conosco através de <a class="green" href="mailto:reception@villa.com">reception@brasilturismo.com</a></h3>
+                    <div class="social-container">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-instagram fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-youtube fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </div> <!-- end of social-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of footer -->  
+    <!-- end of footer -->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr class="divider">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+            
+                <div class="col-lg-12">
+                    <p class="p-small statement">Copyright © <a href="https://danielscharp.me">Daniel Scharp</a></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+
+                    <!-- Scripts -->
+                    <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+                    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+                    <script src="js/jquery.easing.min.js"></script>
+                    <!-- jQuery Easing for smooth scrolling between anchors -->
+                    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+                    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+                    <script src="js/bootstrap-datepicker.min.js"></script> <!-- Datepicker for Bootstrap -->
+                    <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
+</body>
+
+</html>
